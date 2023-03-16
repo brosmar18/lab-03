@@ -17,20 +17,20 @@ while(attempts <= 4) {
     break;
   }
 }
-alert('The answer was 6');
+alert('The answer is 6');
 
 
 let attempts2 = 0;
 while(attempts2 <=6) {
   attempts2++;
-  let states_visited = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming'];
+  let states_visited = ['illinois', 'nebraska', 'florida', 'indiana', 'wisconsin'];
   let guessAnswer = prompt('Guess one of my favorite states to visit').toLowerCase().trim();
 
-  //   if(states_visited ==='Illinois' || states_visited ==='Nebraska' || states_visited ==='Florida' || states_visited ==='Indiana', states_visited ==='Winsonsin' ) {
-  //     alert('You\'re Right!');
-  //   } else {
-  //     alert('Absolutely Not!');
-  //   }
-if (states_visited.includes(guessAnswer))
+  if (states_visited.includes(guessAnswer)) {
+    alert('You are correct! ' + guessAnswer + ' is one of my favorite states to visit.');
+    break;
+  } else {
+    alert('Wrong!');
+  }
 }
-alert('My favorite states to visit are: Illinois, Nebraska, Florida, Indiana, Wisconsin');
+alert('My favorite states to visit are: Illinois, Nebraska, Florida, Indiana, and Wisconsin');
