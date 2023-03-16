@@ -22,7 +22,7 @@ alert('The answer is 6');
 
 
 let attempts2 = 0;
-while(attempts2 <=6) {
+while(attempts2 < 6) {
   attempts2++;
   let statesVisited = ['illinois', 'nebraska', 'florida', 'indiana', 'wisconsin'];
   let guessAnswer = prompt('Guess one of my favorite states to visit').toLowerCase().trim();
