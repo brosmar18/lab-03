@@ -3,7 +3,7 @@ alert('Welcome to my guessing game!');
 let userPoints = 0;
 
 let attempts = 0;
-while(attempts <= 4) {
+while(attempts < 4) {
   attempts++;
 
   let numberAnswer = prompt('Guess a number between 1 and 10');
