@@ -1,0 +1,29 @@
+.header {
+    background-color: burlywood;
+}
+
+.nav__links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+}
+
+.main {
+    background-color: rgb(247, 225, 196);
+    padding: 10px;
+}
+.title {
+    margin: 0;
+}
+.bio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+}
